@@ -75,7 +75,7 @@ foreach ($teams as $key => $team):?>
     <?= $team['last-time-champions'];
     if ($team['last-time-champions'] == null ){
 
-        echo "The teams has won no championships.";
+        echo "The team has won no championships.";
     }
 
 
@@ -88,7 +88,7 @@ foreach ($teams as $key => $team):?>
 
 
     <td>
-    <?= $team[ 'url'];?>
+    <a href= <?= $team[ 'url'];?>>Click here to learn more about <?=$key;?></a>
     </td>
 </tr>
 
