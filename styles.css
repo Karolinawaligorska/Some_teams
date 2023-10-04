@@ -1,17 +1,13 @@
 table,th,td{
 border:1px solid;
 border-collapse:collapse;
+width:50%;
 
 }
 
-td{
+td,th{
 
 text-align:center;
+width:20%;
 
 }
-
-th {
-
-    width:20%;
-}
-
