@@ -4,7 +4,9 @@ require __DIR__ . ("/data.php");
 
 
 ?>
-
+ <!-- table-, city-, and team.php all go in this class so i can apply flex-box styling-->
+<div class="container">
+   
 <table>
     <tr>
 <th>Team-name</th>
@@ -15,6 +17,7 @@ require __DIR__ . ("/data.php");
 </tr>
 
 <?php
+// Collecting the team-names.
 foreach ($teams as $key => $team):?>
 
 <tr>

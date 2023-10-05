@@ -1,8 +1,7 @@
+<!--city- and team.php go in text.container so i can postion them side by side with the table-->
 
-
-
-<h3> If you like these teams maybe you should take a vacation to one of these cities:<h3>
-    
+<div class="text-container">
+<h3> If you like these teams maybe you should consider visiting these cities:<h3>    
 <?php
 
 //get array data to be able to execute loop
@@ -27,10 +26,13 @@ if (in_array($city, $uniqueCity)){
 // if the value already exists in the array, do nothing
  else {
 array_push($uniqueCity, $city);
-echo $city . "\n";
+echo $city. ", ";
 }
 // if the value does not exist in the array,
 // add it to the array and echo it.
 
 
 }
+?>
+
+<br>
