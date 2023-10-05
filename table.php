@@ -15,7 +15,6 @@ require __DIR__ . ("/data.php");
 </tr>
 
 <?php
-
 foreach ($teams as $key => $team):?>
 
 <tr>
