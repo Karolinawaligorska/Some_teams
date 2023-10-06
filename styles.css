@@ -1,0 +1,32 @@
+
+
+body 
+{
+    background-color:FFFDD0;     
+}
+
+table,th,td
+{
+border:1px solid;
+border-collapse:collapse;
+width:50%;
+}
+
+td,th
+{
+text-align:center;
+width:20%;
+}
+
+.container {
+display:flex;
+justify-content:space-evenly;
+align-items:center;
+
+}
+
+.text-container{
+display:border-box;
+border-color:black;
+border:1px solid;
+}
