@@ -1,7 +1,7 @@
 <head>
 
-<h2> Welcome to Sports Analytics! </h2>
+    <h2> Welcome to Sports Analytics! </h2>
 
-<link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 
 </head>
